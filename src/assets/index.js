@@ -8,27 +8,31 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import nextjs from "./tech/next.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import canva from "./tech/canva.jpg";
+import clang from "./tech/C.webp";
+import java from "./tech/java.png";
+import postgresql from "./tech/postgre.png";
+import python from "./tech/python.webp";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import esatic from "./company/esatic_logo.jpg";
+import ecefa from "./company/logo_ecefa.jpeg";
+import pigier from "./company/logo_pigier.jpg";
+import talentium from "./company/talentium.png";
+import mairie from "./company/logo mairie.webp";
+import ecole from "./company/logo_ecole.avif";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import ecfa_motors from "./ecfa_motors.png";
 
 export {
   logo,
@@ -40,23 +44,26 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
+  nextjs,
+  canva,
+  clang,
+  java,
+  postgresql,
+  python,
+  esatic,
+  ecefa,
+  pigier,
+  talentium,
+  mairie,
+  ecole,
   jobit,
   tripguide,
+  ecfa_motors,
 };

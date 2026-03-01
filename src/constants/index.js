@@ -4,25 +4,28 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  nextjs,
+  canva,
+  clang,
+  java,
+  postgresql,
+  python,
+  esatic,
+  ecefa,
+  pigier,
+  talentium,
+  mairie,
+  ecole,
+  ecfa_motors,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +45,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Développeur Web",
+    title: "Développeur Full Stack Web",
     icon: web,
   },
   {
-    title: "Développeur React Native",
+    title: "Développeur Mobile",
     icon: mobile,
   },
   {
@@ -54,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Créateur de Contenu",
+    title: "Conception Systèmes d'Information",
     icon: creator,
   },
 ];
@@ -73,16 +76,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -97,74 +92,112 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Next.js",
+    icon: nextjs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Canva",
+    icon: canva,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "C",
+    icon: clang,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
 ];
 
 const experiences = [
   {
-    title: "Développeur React.js",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "Mars 2020 - Avril 2021",
+    title: "Baccalauréat Série D",
+    company_name: "Externat Jean François Lionnel",
+    icon: ecole,
+    iconBg: "#fff",
+    date: "2020 - 2021",
     points: [
-      "Développement et maintenance d'applications web avec React.js et autres technologies associées.",
-      "Collaboration avec des équipes pluridisciplinaires incluant des designers, chefs de produit et autres développeurs pour créer des produits de haute qualité.",
-      "Mise en place du design responsive et assurance de la compatibilité multi-navigateurs.",
-      "Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.",
+      "Obtention du Baccalauréat Série D (Sciences exactes) à Yopougon.",
+      "Développement de compétences analytiques et mathématiques solides.",
+      "Premiers intérêts pour l'informatique et la technologie.",
     ],
   },
   {
-    title: "Développeur React Native",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Fév 2022",
+    title: "BTS IDA - Informatique Développeur Application",
+    company_name: "Pigier Côte d'Ivoire",
+    icon: pigier,
+    iconBg: "#fff",
+    date: "2021 - 2023",
     points: [
-      "Développement et maintenance d'applications web avec React.js et autres technologies associées.",
-      "Collaboration avec des équipes pluridisciplinaires incluant des designers, chefs de produit et autres développeurs pour créer des produits de haute qualité.",
-      "Mise en place du design responsive et assurance de la compatibilité multi-navigateurs.",
-      "Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.",
+      "Formation en développement d'applications : C, Java, PHP, HTML, CSS, JavaScript.",
+      "Initiation aux bases de données : MySQL, PostgreSQL.",
+      "Conception et modélisation avec Merise et UML.",
+      "Première et deuxième année de Licence IDA.",
     ],
   },
   {
-    title: "Développeur Web",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Stage - Développeur d'Application Web",
+    company_name: "Mairie du Plateau",
+    icon: mairie,
+    iconBg: "#fff",
+    iconSize: "90%",
+    date: "2023 - 2024",
     points: [
-      "Développement et maintenance d'applications web avec React.js et autres technologies associées.",
-      "Collaboration avec des équipes pluridisciplinaires incluant des designers, chefs de produit et autres développeurs pour créer des produits de haute qualité.",
-      "Mise en place du design responsive et assurance de la compatibilité multi-navigateurs.",
-      "Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.",
+      "Stage de développement d'application web au sein de la Mairie du Plateau.",
+      "Conception et développement d'interfaces web modernes et responsives.",
+      "Intégration de bases de données et gestion des données administratives.",
+      "Collaboration avec les équipes techniques pour répondre aux besoins métiers.",
     ],
   },
   {
-    title: "Développeur Full Stack",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Présent",
+    title: "Stage - Développeur d'Application Web",
+    company_name: "Talentium",
+    icon: talentium,
+    iconBg: "#fff",
+    date: "2024",
     points: [
-      "Développement et maintenance d'applications web avec React.js et autres technologies associées.",
-      "Collaboration avec des équipes pluridisciplinaires incluant des designers, chefs de produit et autres développeurs pour créer des produits de haute qualité.",
-      "Mise en place du design responsive et assurance de la compatibilité multi-navigateurs.",
-      "Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.",
+      "Stage de perfectionnement en développement d'application web.",
+      "Développement de fonctionnalités front-end et back-end.",
+      "Utilisation de React.js, Node.js, TailwindCSS.",
+      "Gestion de projets avec Trello et Postman.",
+    ],
+  },
+  {
+    title: "Stage - Développeur Web & Mobile",
+    company_name: "Groupe ECEFA",
+    icon: ecefa,
+    iconBg: "#fff",
+    date: "2025",
+    points: [
+      "Stage de soutenance en tant que développeur d'application web et mobile.",
+      "Développement d'applications mobiles avec React Native et Flutter.",
+      "Intégration de bases de données NoSQL : MongoDB, Firebase.",
+      "Conception et modélisation de systèmes d'information (Merise, UML).",
+    ],
+  },
+  {
+    title: "Master 1 BIHAR — Big Data & Intelligence Artificielle",
+    company_name: "ESATIC (en cours)",
+    icon: esatic,
+    iconBg: "#fff",
+    date: "2025 - 2026",
+    points: [
+      "Formation avancée en Big Data et Intelligence Artificielle.",
+      "Étude des algorithmes de machine learning et deep learning.",
+      "Manipulation et analyse de grandes volumétries de données.",
+      "Développement de solutions intelligentes appliquées aux systèmes d'information.",
     ],
   },
 ];
@@ -172,42 +205,63 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Je pensais qu'il était impossible de créer un site aussi beau que notre produit, mais Rick m'a prouvé le contraire.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Henoch a développé notre application web avec une grande maîtrise technique et un sens aigu du détail. Excellent travail !",
+    name: "Responsable ECEFA",
+    designation: "Directeur",
+    company: "Groupe ECEFA",
+    image: "https://randomuser.me/api/portraits/men/10.jpg",
   },
   {
     testimonial:
-      "Je n'ai jamais rencontré de développeur web qui se soucie autant du succès de ses clients que Rick.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Un développeur sérieux, créatif et très adaptable. Il a livré un projet mobile de qualité dans les délais impartis.",
+    name: "Formateur Talentium",
+    designation: "Encadrant",
+    company: "Talentium",
+    image: "https://randomuser.me/api/portraits/men/12.jpg",
   },
   {
     testimonial:
-      "Après que Rick ait optimisé notre site, notre trafic a augmenté de 50 %. On ne peut pas assez le remercier !",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Henoch maîtrise aussi bien le front-end que le back-end. C'est un atout précieux dans n'importe quelle équipe.",
+    name: "Professeur ESATIC",
+    designation: "Enseignant",
+    company: "ESATIC",
+    image: "https://randomuser.me/api/portraits/men/15.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Location de Voiture",
+    name: "Site web ECEFA Motors",
     description:
-      "Plateforme web permettant aux utilisateurs de rechercher, réserver et gérer des locations de voitures auprès de différents prestataires, offrant une solution pratique et efficace pour les besoins de transport.",
+      "Plateforme officielle d'un centre de formation en conduite d'engins BTP agréé par l'État ivoirien, mettant en avant des formations certifiantes, un apprentissage pratique sur chantier réel et l'accompagnement vers l'insertion professionnelle.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecfa_motors,
+    source_code_link: "https://www.ecefamotors.com/index.html",
+  },
+  {
+    name: "App Mobile de Commerce",
+    description:
+      "Application mobile de vente en ligne développée avec React Native et Firebase, avec gestion des produits, panier et paiement en ligne.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -215,45 +269,24 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Application web permettant aux utilisateurs de rechercher des offres d'emploi, de consulter les fourchettes salariales estimées et de localiser les postes disponibles selon leur emplacement.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Guide de Voyage",
+    name: "Plateforme de Gestion de Projets",
     description:
-      "Plateforme complète de réservation de voyages permettant de réserver des vols, hôtels et voitures de location, avec des recommandations personnalisées pour les destinations populaires.",
+      "Plateforme web de gestion de projets et tâches en équipe avec tableau de bord et suivi en temps réel. Stack : Next.js, Django, PostgreSQL.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
     ],

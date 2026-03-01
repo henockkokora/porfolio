@@ -12,7 +12,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceCard = ({ experience, index }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -24,11 +24,18 @@ const ExperienceCard = ({ experience }) => {
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className='flex justify-center items-center w-full h-full'>
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
-          />
+          {experience.icon ? (
+            <img
+              src={experience.icon}
+              alt={experience.company_name}
+              style={{ width: experience.iconSize || '60%', height: experience.iconSize || '60%' }}
+              className='object-contain'
+            />
+          ) : (
+            <span style={{ color: "#fff", fontSize: "20px", fontWeight: "bold" }}>
+              {index + 1}
+            </span>
+          )}
         </div>
       }
     >
@@ -61,10 +68,10 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          Ce que j'ai accompli jusqu'ici
+          Mon parcours académique et professionnel
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Expérience Professionnelle.
+          Formation & Expériences.
         </h2>
       </motion.div>
 
@@ -73,6 +80,7 @@ const Experience = () => {
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
+              index={index}
               experience={experience}
             />
           ))}
