@@ -47,13 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Je suis <strong>Kokora Henoch</strong>, développeur d'application de 21 ans basé à Yopougon, Côte d'Ivoire.
-        Passionné par le développement Full Stack Web et Mobile, je maîtrise des langages et frameworks
-        tels que React.js, React Native, Flutter, Node.js, Django, PHP et bien d'autres.
-        Je conçois des solutions efficaces, évolutives et conviviales en m'appuyant sur une solide
-        formation en informatique (BTS IDA, Licence DASI à ESATIC) et des expériences pratiques en entreprise.
-        Actuellement en Master 1 BIHAR (Big Data et Intelligence Artificielle) à l'ESATIC.
-        Travaillons ensemble pour donner vie à vos projets !
+        Je suis <strong>Kokora Henoch</strong>, développeur d'application web et mobile basé à Yopougon, en Côte d'Ivoire.
+        Mon profil couvre le full stack web, le mobile et la conception de systèmes d'information, avec une forte
+        appétence pour la modélisation, l'intégration d'API et la gestion de projets.
+        Je m'appuie sur des compétences en HTML, CSS, JavaScript, TailwindCSS, React, Node.js, Django, MySQL,
+        PostgreSQL, Merise et UML, renforcées par des expériences en entreprise à la Mairie du Plateau,
+        Talentium et le Groupe ECEFA.
+        Je poursuis actuellement un Master 1 BIHAR à l'ESATIC.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

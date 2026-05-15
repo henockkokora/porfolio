@@ -34,8 +34,12 @@ export const navLinks = [
     title: "À propos",
   },
   {
+    id: "project",
+    title: "Projets",
+  },
+  {
     id: "work",
-    title: "Travail",
+    title: "Formation & Expérience",
   },
   {
     id: "contact",
@@ -45,19 +49,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Développeur Full Stack Web",
+    title: "Développement Full Stack Web",
     icon: web,
   },
   {
-    title: "Développeur Mobile",
+    title: "Développement d'applications mobiles et desktop",
     icon: mobile,
   },
   {
-    title: "Développeur Backend",
+    title: "Conception et modélisation des systèmes d'information",
     icon: backend,
   },
   {
-    title: "Conception Systèmes d'Information",
+    title: "Gestion de projets et contenu numérique",
     icon: creator,
   },
 ];
@@ -121,7 +125,43 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const formations = [
+  {
+    title: "Master 1 BIHAR - Big Data et Intelligence Artificielle",
+    company_name: "ESATIC (en cours)",
+    icon: esatic,
+    iconBg: "#fff",
+    date: "2025 - 2026",
+    points: [
+      "Formation en Big Data et Intelligence Artificielle.",
+      "Étude des algorithmes de machine learning et deep learning.",
+      "Analyse de grandes volumétries de données et développement de solutions intelligentes.",
+    ],
+  },
+  {
+    title: "Licence DASI - Développeur Application et Systèmes d'Information",
+    company_name: "ESATIC",
+    icon: esatic,
+    iconBg: "#fff",
+    date: "2024 - 2025",
+    points: [
+      "Formation en développement d'applications et systèmes d'information.",
+      "Renforcement des bases en conception, développement et intégration logicielle.",
+      "Approfondissement des pratiques de modélisation et de gestion de projets.",
+    ],
+  },
+  {
+    title: "BTS IDA - Informatique Développeur d'Application",
+    company_name: "Pigier Côte d'Ivoire",
+    icon: pigier,
+    iconBg: "#fff",
+    date: "2022 - 2023",
+    points: [
+      "Développement d'applications avec C, Java, PHP, HTML, CSS et JavaScript.",
+      "Bases de données avec MySQL, PostgreSQL et SQLite.",
+      "Conception et modélisation avec Merise et UML.",
+    ],
+  },
   {
     title: "Baccalauréat Série D",
     company_name: "Externat Jean François Lionnel",
@@ -129,75 +169,49 @@ const experiences = [
     iconBg: "#fff",
     date: "2020 - 2021",
     points: [
-      "Obtention du Baccalauréat Série D (Sciences exactes) à Yopougon.",
+      "Obtention du Baccalauréat Série D à Yopougon.",
       "Développement de compétences analytiques et mathématiques solides.",
       "Premiers intérêts pour l'informatique et la technologie.",
     ],
   },
+];
+
+const professionalExperiences = [
   {
-    title: "BTS IDA - Informatique Développeur Application",
-    company_name: "Pigier Côte d'Ivoire",
-    icon: pigier,
+    title: "Stage - Développeur web et mobile",
+    company_name: "Groupe ECEFA",
+    icon: ecefa,
     iconBg: "#fff",
-    date: "2021 - 2023",
+    date: "Avr 2025 - Oct 2025",
     points: [
-      "Formation en développement d'applications : C, Java, PHP, HTML, CSS, JavaScript.",
-      "Initiation aux bases de données : MySQL, PostgreSQL.",
-      "Conception et modélisation avec Merise et UML.",
-      "Première et deuxième année de Licence IDA.",
+      "Développement d'applications web et mobiles full stack.",
+      "Conception de nouvelles fonctionnalités et maintenance des applications existantes.",
+      "Encadrement technique de l'équipe de développement et participation aux choix d'architecture.",
     ],
   },
   {
-    title: "Stage - Développeur d'Application Web",
+    title: "Stage - Développeur d'application web",
+    company_name: "Talentium",
+    icon: talentium,
+    iconBg: "#fff",
+    date: "Avr 2024 - Sep 2024",
+    points: [
+      "Développement de sites vitrines responsives avec HTML, CSS, TailwindCSS et JavaScript.",
+      "Conception et intégration d'APIs backend avec Node.js.",
+      "Création d'interfaces utilisateur modernes et optimisation de l'expérience utilisateur.",
+    ],
+  },
+  {
+    title: "Stage - Développeur d'application web",
     company_name: "Mairie du Plateau",
     icon: mairie,
     iconBg: "#fff",
     iconSize: "90%",
-    date: "2023 - 2024",
+    date: "Nov 2023 - Mar 2024",
     points: [
-      "Stage de développement d'application web au sein de la Mairie du Plateau.",
-      "Conception et développement d'interfaces web modernes et responsives.",
-      "Intégration de bases de données et gestion des données administratives.",
-      "Collaboration avec les équipes techniques pour répondre aux besoins métiers.",
-    ],
-  },
-  {
-    title: "Stage - Développeur d'Application Web",
-    company_name: "Talentium",
-    icon: talentium,
-    iconBg: "#fff",
-    date: "2024",
-    points: [
-      "Stage de perfectionnement en développement d'application web.",
-      "Développement de fonctionnalités front-end et back-end.",
-      "Utilisation de React.js, Node.js, TailwindCSS.",
-      "Gestion de projets avec Trello et Postman.",
-    ],
-  },
-  {
-    title: "Stage - Développeur Web & Mobile",
-    company_name: "Groupe ECEFA",
-    icon: ecefa,
-    iconBg: "#fff",
-    date: "2025",
-    points: [
-      "Stage de soutenance en tant que développeur d'application web et mobile.",
-      "Développement d'applications mobiles avec React Native et Flutter.",
-      "Intégration de bases de données NoSQL : MongoDB, Firebase.",
-      "Conception et modélisation de systèmes d'information (Merise, UML).",
-    ],
-  },
-  {
-    title: "Master 1 BIHAR — Big Data & Intelligence Artificielle",
-    company_name: "ESATIC (en cours)",
-    icon: esatic,
-    iconBg: "#fff",
-    date: "2025 - 2026",
-    points: [
-      "Formation avancée en Big Data et Intelligence Artificielle.",
-      "Étude des algorithmes de machine learning et deep learning.",
-      "Manipulation et analyse de grandes volumétries de données.",
-      "Développement de solutions intelligentes appliquées aux systèmes d'information.",
+      "Développement d'une application de gestion administrative.",
+      "Modélisation et implémentation d'une base de données relationnelle en MySQL.",
+      "Analyse des besoins et conception d'interfaces adaptées aux utilisateurs.",
     ],
   },
 ];
@@ -231,6 +245,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Youth Greatness",
+    description:
+      "plateforme de vente en ligne de produit pour un t-shirt Youth Greatness, au style urbain et au rendu premium, avec mise en avant d'un best seller bientôt disponible.",
+    tags: [
+      {
+        name: "landing-page",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "branding",
+        color: "green-text-gradient",
+      },
+      {
+        name: "e-commerce",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://youth-greatness.vercel.app/logo_youth.jpeg",
+    source_code_link: "https://youth-greatness.vercel.app/",
+  },
+  {
+    name: "MaillotCI",
+    description:
+      "Boutique e-commerce dédiée aux maillots officiels de l'Équipe de Côte d'Ivoire, avec mise en avant de modèles premium, de la livraison rapide et d'avis clients.",
+    tags: [
+      {
+        name: "e-commerce",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fashion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "supporters",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://maillotci.vercel.app/assets/maillot_blanc_brode-D--H_fun.jpg",
+    source_code_link: "https://maillotci.vercel.app/",
+  },
+  {
     name: "Site web ECEFA Motors",
     description:
       "Plateforme officielle d'un centre de formation en conduite d'engins BTP agréé par l'État ivoirien, mettant en avant des formations certifiantes, un apprentissage pratique sur chantier réel et l'accompagnement vers l'insertion professionnelle.",
@@ -252,47 +308,68 @@ const projects = [
     source_code_link: "https://www.ecefamotors.com/index.html",
   },
   {
-    name: "App Mobile de Commerce",
+    name: "ECEFA Marketplace",
     description:
-      "Application mobile de vente en ligne développée avec React Native et Firebase, avec gestion des produits, panier et paiement en ligne.",
+      "Marketplace e-commerce orientée Afrique, avec catégories produits, nouveautés, offres spéciales, newsletter et expérience d'achat centrée sur la livraison rapide et le paiement sécurisé.",
     tags: [
       {
-        name: "react-native",
+        name: "e-commerce",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "marketplace",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "https://marketplace-topaz-six.vercel.app/logo_ecefa.png",
+    source_code_link: "https://marketplace-topaz-six.vercel.app/",
   },
   {
-    name: "Plateforme de Gestion de Projets",
+    name: "Mon Hébergement",
     description:
-      "Plateforme web de gestion de projets et tâches en équipe avec tableau de bord et suivi en temps réel. Stack : Next.js, Django, PostgreSQL.",
+      "Plateforme de location et réservation de biens (studios, appartements, villas) avec recherche par zone, type de bien et consultation des annonces récentes à Abidjan.",
     tags: [
       {
-        name: "nextjs",
+        name: "immobilier",
         color: "blue-text-gradient",
       },
       {
-        name: "django",
+        name: "marketplace",
         color: "green-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "location",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "/monhebergement.png",
+    source_code_link: "https://mon-hebergement.vercel.app/",
+  },
+  {
+    name: "Plateforme de gestion Caissier/Commercial - ECEFA (Privé)",
+    description:
+      "Application métier privée dédiée au poste de caissier commercial. Elle sert à enregistrer les ventes, suivre les paiements clients, gérer la caisse au quotidien, éditer les reçus et consulter les états d'encaissement pour le pilotage commercial. Accès restreint: la plateforme nécessite des identifiants internes, donc non consultable publiquement par les recruteurs.",
+    tags: [
+      {
+        name: "application-metier",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gestion-caisse",
+        color: "green-text-gradient",
+      },
+      {
+        name: "prive",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://ecefa.net/image_autres.jpg",
+    source_code_link: "https://ecefa.net/login/caissier-commercial",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, formations, professionalExperiences, testimonials, projects };

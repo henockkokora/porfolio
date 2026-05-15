@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { experiences } from "../constants";
+import { formations, professionalExperiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
@@ -63,6 +63,23 @@ const ExperienceCard = ({ experience, index }) => {
   );
 };
 
+const TimelineSection = ({ title, items }) => (
+  <div className='mt-8'>
+    <h3 className='text-white text-[34px] sm:text-[42px] font-extrabold text-center mb-5 tracking-tight'>
+      {title}
+    </h3>
+    <VerticalTimeline>
+      {items.map((experience, index) => (
+        <ExperienceCard
+          key={`${title}-${experience.title}-${index}`}
+          index={index}
+          experience={experience}
+        />
+      ))}
+    </VerticalTimeline>
+  </div>
+);
+
 const Experience = () => {
   return (
     <>
@@ -71,20 +88,13 @@ const Experience = () => {
           Mon parcours académique et professionnel
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Formation & Expériences.
+          Formation & Expérience professionnelle.
         </h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              index={index}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
+      <div className='mt-8 flex flex-col'>
+        <TimelineSection title='Formation' items={formations} />
+        <TimelineSection title='Expérience professionnelle' items={professionalExperiences} />
       </div>
     </>
   );
