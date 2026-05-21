@@ -16,9 +16,9 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
+      <div className='bg-tertiary xs:p-4 p-3 rounded-2xl sm:w-[360px] w-full'>
         <div
-          className='relative w-full h-[230px] cursor-pointer'
+          className='relative w-full xs:h-[200px] h-[160px] sm:h-[230px] cursor-pointer'
           onClick={() => window.open(source_code_link, "_blank")}
         >
           <img
@@ -28,16 +28,16 @@ const ProjectCard = ({
           />
         </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+        <div className='mt-3 sm:mt-5'>
+          <h3 className='text-white font-bold xs:text-[18px] text-[16px] sm:text-[24px]'>{name}</h3>
+          <p className='mt-2 text-secondary xs:text-[12px] text-[11px] sm:text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className='mt-3 sm:mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
+              className={`xs:text-[11px] text-[10px] sm:text-[14px] ${tag.color}`}
             >
               #{tag.name}
             </p>
@@ -59,7 +59,7 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-secondary xs:text-[13px] text-[12px] sm:text-[17px] max-w-3xl xs:leading-[24px] leading-[26px] sm:leading-[30px]'
         >
           Les projets suivants illustrent mes compétences et mon expérience à
           travers des réalisations concrètes. Ils reflètent ma capacité à développer

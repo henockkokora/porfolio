@@ -40,20 +40,20 @@ const ExperienceCard = ({ experience, index }) => {
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-white xs:text-[18px] text-[16px] sm:text-[24px] font-bold'>{experience.title}</h3>
         <p
-          className='text-secondary text-[16px] font-semibold'
+          className='text-secondary xs:text-[13px] text-[12px] sm:text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
           {experience.company_name}
         </p>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
+      <ul className='mt-3 sm:mt-5 list-disc ml-4 sm:ml-5 space-y-1 sm:space-y-2'>
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className='text-white-100 xs:text-[12px] text-[11px] sm:text-[14px] pl-1 tracking-wider'
           >
             {point}
           </li>
@@ -65,7 +65,7 @@ const ExperienceCard = ({ experience, index }) => {
 
 const TimelineSection = ({ title, items }) => (
   <div className='mt-8'>
-    <h3 className='text-white text-[34px] sm:text-[42px] font-extrabold text-center mb-5 tracking-tight'>
+    <h3 className='text-white xs:text-[24px] text-[20px] sm:text-[34px] md:text-[42px] font-extrabold text-center mb-3 sm:mb-5 tracking-tight'>
       {title}
     </h3>
     <VerticalTimeline>

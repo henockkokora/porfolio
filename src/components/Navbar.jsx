@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src='/photo.png' alt='logo' className='w-14 h-14 object-cover rounded-full' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Kokora Henoch &nbsp;
-            <span className='sm:block hidden'> | Développeur web & mobile</span>
+          <img src='/photo.png' alt='logo' className='xs:w-12 xs:h-12 w-10 h-10 sm:w-14 sm:h-14 object-cover rounded-full' />
+          <p className='text-white xs:text-[14px] text-[12px] sm:text-[18px] font-bold cursor-pointer flex '>
+            Kokora &nbsp;
+            <span className='sm:block hidden'>Henoch | Développeur web & mobile</span>
           </p>
         </Link>
 
