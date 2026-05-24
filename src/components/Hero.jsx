@@ -35,7 +35,7 @@ const Hero = () => {
             src='/photo1.png'
             alt='Kokora Henoch'
               className='h-full w-full object-cover'
-              style={{ objectPosition: '70% 50%' }}
+              style={{ objectPosition: '70% 70%' }}
           />
           <div className='absolute inset-0 bg-primary/72' />
           <div className='absolute inset-0 bg-gradient-to-b from-primary/60 via-primary/25 to-primary/90' />
@@ -43,7 +43,7 @@ const Hero = () => {
       )}
 
       <div
-        className={`absolute inset-0 top-[96px] pointer-events-none max-w-6xl mx-auto ${styles.paddingX} flex flex-row items-start xs:gap-3 gap-2 sm:gap-5 z-10`}
+        className={`absolute inset-0 top-[70px] xs:top-[85px] sm:top-[96px] pointer-events-none max-w-6xl mx-auto ${styles.paddingX} flex flex-row items-start xs:gap-3 gap-2 sm:gap-5 z-10`}
       >
         <div className='hidden sm:flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
