@@ -32,9 +32,10 @@ const Hero = () => {
       {isMobile && (
         <div className='absolute inset-0 z-0'>
           <img
-            src='/photo.png'
+            src='/photo1.png'
             alt='Kokora Henoch'
-            className='h-full w-full object-cover object-center'
+              className='h-full w-full object-cover'
+              style={{ objectPosition: '70% 50%' }}
           />
           <div className='absolute inset-0 bg-primary/72' />
           <div className='absolute inset-0 bg-gradient-to-b from-primary/60 via-primary/25 to-primary/90' />

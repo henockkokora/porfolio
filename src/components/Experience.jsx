@@ -65,7 +65,7 @@ const ExperienceCard = ({ experience, index }) => {
 
 const TimelineSection = ({ title, items }) => (
   <div className='mt-8'>
-    <h3 className='text-white xs:text-[24px] text-[20px] sm:text-[34px] md:text-[42px] font-extrabold text-center mb-3 sm:mb-5 tracking-tight'>
+    <h3 className='text-white xs:text-[26px] text-[22px] sm:text-[36px] md:text-[44px] font-extrabold text-left mb-3 sm:mb-5 tracking-tight'>
       {title}
     </h3>
     <VerticalTimeline>
@@ -84,11 +84,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          Mon parcours académique et professionnel
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Formation & Expérience professionnelle.
+        <h2 className={`${styles.sectionHeadText} md:text-[72px] sm:text-[60px] xs:text-[48px] text-[36px]`}>
+          Formation & Expérience professionnelle
         </h2>
       </motion.div>
 
