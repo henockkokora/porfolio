@@ -254,11 +254,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "play-store",
+        name: "React Native",
         color: "green-text-gradient",
       },
       {
-        name: "sport",
+        name: "Node.js",
         color: "pink-text-gradient",
       },
     ],
@@ -272,11 +272,11 @@ const projects = [
       "plateforme de vente en ligne de produit pour un t-shirt Youth Greatness, au style urbain et au rendu premium, avec mise en avant d'un best seller bientôt disponible.",
     tags: [
       {
-        name: "landing-page",
+        name: "Next JS",
         color: "blue-text-gradient",
       },
       {
-        name: "branding",
+        name: "React",
         color: "green-text-gradient",
       },
       {
@@ -293,15 +293,15 @@ const projects = [
       "Boutique e-commerce dédiée aux maillots officiels de l'Équipe de Côte d'Ivoire, avec mise en avant de modèles premium, de la livraison rapide et d'avis clients.",
     tags: [
       {
-        name: "e-commerce",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "fashion",
+        name: "Node JS",
         color: "green-text-gradient",
       },
       {
-        name: "supporters",
+        name: "Landing Page",
         color: "pink-text-gradient",
       },
     ],
@@ -335,15 +335,15 @@ const projects = [
       "Marketplace e-commerce orientée Afrique, avec catégories produits, nouveautés, offres spéciales, newsletter et expérience d'achat centrée sur la livraison rapide et le paiement sécurisé.",
     tags: [
       {
-        name: "e-commerce",
+        name: "Next JS",
         color: "blue-text-gradient",
       },
       {
-        name: "marketplace",
+        name: "Node JS",
         color: "green-text-gradient",
       },
       {
-        name: "react",
+        name: "Marketplace",
         color: "pink-text-gradient",
       },
     ],
@@ -356,11 +356,11 @@ const projects = [
       "Plateforme de location et réservation de biens (studios, appartements, villas) avec recherche par zone, type de bien et consultation des annonces récentes à Abidjan.",
     tags: [
       {
-        name: "immobilier",
+        name: "Next JS",
         color: "blue-text-gradient",
       },
       {
-        name: "marketplace",
+        name: "Node JS",
         color: "green-text-gradient",
       },
       {
@@ -377,15 +377,15 @@ const projects = [
       "Application métier privée dédiée au poste de caissier commercial. Elle sert à enregistrer les ventes, suivre les paiements clients, gérer la caisse au quotidien, éditer les reçus et consulter les états d'encaissement pour le pilotage commercial. Accès restreint: la plateforme nécessite des identifiants internes, donc non consultable publiquement par les recruteurs.",
     tags: [
       {
-        name: "application-metier",
+        name: "Next JS",
         color: "blue-text-gradient",
       },
       {
-        name: "gestion-caisse",
+        name: "Node JS",
         color: "green-text-gradient",
       },
       {
-        name: "prive",
+        name: "Application de gestion",
         color: "pink-text-gradient",
       },
     ],
