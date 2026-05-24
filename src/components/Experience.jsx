@@ -93,8 +93,8 @@ const Experience = () => {
       </motion.div>
 
       <div className='mt-8 flex flex-col'>
-        <TimelineSection title='Formation' items={formations} />
         <TimelineSection title='Expérience professionnelle' items={professionalExperiences} />
+        <TimelineSection title='Formation' items={formations} />
       </div>
     </>
   );

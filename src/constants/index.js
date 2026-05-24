@@ -245,6 +245,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Ace Padel",
+    description:
+      "Application mobile pour réserver des terrains de padel, suivre les scores et accéder aux fonctionnalités premium.",
+    tags: [
+      {
+        name: "mobile",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "play-store",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sport",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/acepadel.webp",
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.acepadel.app&pcampaignid=web_share",
+  },
+  {
     name: "Youth Greatness",
     description:
       "plateforme de vente en ligne de produit pour un t-shirt Youth Greatness, au style urbain et au rendu premium, avec mise en avant d'un best seller bientôt disponible.",
