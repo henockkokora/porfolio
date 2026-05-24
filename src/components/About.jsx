@@ -45,15 +45,13 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary xs:text-[13px] text-[12px] sm:text-[17px] max-w-3xl xs:leading-[24px] leading-[22px] sm:leading-[30px]'
+        className='mt-4 text-secondary xs:text-[14px] text-[13px] sm:text-[18px] max-w-2xl xs:leading-[25px] leading-[24px] sm:leading-[32px]'
       >
-        Je suis <strong>Kokora Henoch</strong>, développeur d'application web et mobile basé à Yopougon, en Côte d'Ivoire.
-        Mon profil couvre le full stack web, le mobile et la conception de systèmes d'information, avec une forte
-        appétence pour la modélisation, l'intégration d'API et la gestion de projets.
-        Je m'appuie sur des compétences en HTML, CSS, JavaScript, TailwindCSS, React, Node.js, Django, MySQL,
-        PostgreSQL, Merise et UML, renforcées par des expériences en entreprise à la Mairie du Plateau,
-        Talentium et le Groupe ECEFA.
-        Je poursuis actuellement un Master 1 BIHAR à l'ESATIC.
+        Je suis <strong>Kokora Henoch</strong>, développeur web et mobile basé à Yopougon.
+        J'interviens sur le full stack, le mobile et la conception de systèmes d'information, avec un intérêt
+        fort pour la modélisation, les API et la gestion de projets.
+        Mon parcours s'appuie sur des expériences à la Mairie du Plateau, Talentium et au Groupe ECEFA,
+        ainsi que sur un Master 1 BIHAR à l'ESATIC.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
